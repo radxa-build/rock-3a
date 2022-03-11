@@ -5,7 +5,7 @@
 
 A collection of auto-generated images for ROCK 3A.
 
-* Armbian images will have name started with `Armbian`.
+* Armbian images will have name started with `Armbian`. This is currently disabled since Armbian is not providing their `current` kernel on this board. 
 * Radxa debos image will have name started with the board name.
 * Manjaro users can visit [here](https://github.com/manjaro-arm/rock3-a-images).
 

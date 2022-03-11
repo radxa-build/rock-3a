@@ -36,7 +36,7 @@ jobs:
     strategy:
       matrix:
         BOARD: [rock-3a]
-        DISTRO: [armbian, debos]
+        DISTRO: [debos]
         FLAVOR: [debian, ubuntu]
     steps:
       - name: Checkout
