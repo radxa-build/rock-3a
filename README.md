@@ -5,24 +5,23 @@
 
 This repo is the central location for Radxa-built system images for ROCK 3A.
 
-Not all images are officially supported by Radxa. Some of them are only provided as-is with no warranty. Please read below for detailed explanations.
-
 ## What images are provided?
 
-Currently the following images are provided:
-* Radxa [`rbuild`](https://github.com/radxa-repo/rbuild) images
+Currently 4 flavors are provided:
+
+- Debian Xfce: This flavor is officially supported, tested, and recommended for all users.
+- Debian CLI: This flavor is officially supported. This flavor is quite minimal and is intended for headless usage. We do not support desktop usage on top of this flavor.
+- Ubuntu Xfce: This flavor is provided as-is except for critical issues. Desktop is currently not working and we intend to fix it in a later time. This (currently broken) build is generated to catch build system issues.
+- Ubuntu CLI: This flavor is provided as-is except for critical issues. Users should look at Debian CLI as an alternative.
+
+Please also always use [the latest release](https://github.com/radxa-build/rock-3a/releases/latest) instead of any pre-release / test builds. Those will not be supported.
 
 ## Is there any other options?
 
-Armbian users are strongly recommended to use [Armbian official image](https://www.armbian.com/rock-3a/).
-
-Manjaro users can visit [here](https://github.com/manjaro-arm/rock3a-images).
+- [Manjaro](https://github.com/manjaro-arm/rock3a-images)
+- [Armbian](https://www.armbian.com/rock-3a/)
 
 Please visit [our Wiki](https://wiki.radxa.com/Rock3/downloads) for more download options.
-
-## Where can I download the Radxa image?
-
-Every month new images are [built](https://github.com/radxa-build/rock-3a/actions/workflows/build.yml) and [published](https://github.com/radxa-build/rock-3a/releases) as pre-releases, which serve as release candidates (RC). Radxa will periodically select an RC for additional testing, and once it passes those tests, promote it as an officially supported release. This is why you are always recommended to use [the latest release](https://github.com/radxa-build/rock-3a/releases/latest).
 
 ## Help! Something doesn't work!
 
